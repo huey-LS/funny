@@ -1,0 +1,42 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+#sokoban{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 100px auto 0;
+  border: 1px solid #000;
+  background: #fff;
+}
+.place{
+  width: 30px;
+  height: 30px;
+}
+.place0{
+  background: #333;
+}
+.place1{
+  background: #666;
+}
+.place2{
+  background: #000;
+}
+.role{
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  margin: 5px;
+  border-width: 10px;
+  border-style: dashed dashed dashed solid;
+  border-color: transparent transparent transparent #f60;
+}
+.box{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  background: #f00;
+}
